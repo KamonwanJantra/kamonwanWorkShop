@@ -27,6 +27,15 @@
             />
 
         <EditText
+            android:id="@+id/etDis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:hint="Display name"/>
+        <EditText
             android:id="@+id/etUserR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

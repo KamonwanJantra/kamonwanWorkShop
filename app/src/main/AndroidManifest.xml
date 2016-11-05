@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.user.workshop">
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,7 +18,9 @@
         </activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".NewListActivity" />
-        <activity android:name=".NewsDetailActivity"></activity>
+        <activity android:name=".NewsDetailActivity" />
+        <activity android:name=".rowActivity" />
+        <activity android:name=".Custom_adapter_Activity"></activity>
     </application>
 
 </manifest>
